@@ -1,8 +1,7 @@
 notejam:
   image:
-    # TODO
     repository: 441604169807.dkr.ecr.eu-west-1.amazonaws.com/notejam
-    tag: latest
+    tag: 91753f67df21ee926d43b79a2f8110f0cacfa9d3
   deploy:
     ## Application properties file for configuring the Quarkus app
     applicationProperties:
