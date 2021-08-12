@@ -1,7 +1,7 @@
 notejam:
   image:
     repository: 441604169807.dkr.ecr.eu-west-1.amazonaws.com/notejam
-    tag: 91753f67df21ee926d43b79a2f8110f0cacfa9d3
+    tag: f9ce35a556d3f9509c38ad21c41aef842724a83b
   deploy:
     ## Application properties file for configuring the Quarkus app
     applicationProperties:
@@ -25,7 +25,7 @@ notejam:
         ; The length of the generated password.
         recovery.length: 32
         spring.datasource.username=notejam
-        spring.datasource.password=${DB_PASS}
+        spring.datasource.password=notejamnotejam
         spring.datasource.driver-class-name=com.mysql.jdbc.Driver
         spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
-        spring.datasource.url=jdbc:mysql://${DB_HOSTNAME}:3306/notejam
+        spring.datasource.url=jdbc:mysql://nc-demo.clem8lnaphpu.eu-west-1.rds.amazonaws.com:3306/notejam
