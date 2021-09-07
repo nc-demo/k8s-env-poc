@@ -1,7 +1,7 @@
 notejam:
   image:
     repository: 441604169807.dkr.ecr.eu-west-1.amazonaws.com/notejam
-    tag: f9ce35a556d3f9509c38ad21c41aef842724a83b
+    tag: 5c8ce491f4c8462a4bbab33c2707b8d60b37a263
   deploy:
     ## Application properties file for configuring the Quarkus app
     applicationProperties:
